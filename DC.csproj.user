@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Appoinment\AddAppoinment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Invoice\Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Invoice\PrintInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\Editservices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Patient\Addpatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\selectservice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\Addservices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Appoinment\Appoinment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Appoinment\Deleteappoinment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Appoinment\Editappoinment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Patient\EditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="loginControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Patient\Patients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Patient\Selectpatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

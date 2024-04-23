@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DC</id>
+    <version>1.0.0</version>
+    <authors>DC</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="ADO.Net.Client" version="1.4.4" exclude="Build,Analyzers" />
+        <dependency id="ADO.Net.Client.Core" version="1.4.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="5.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="MySqlConnector" version="2.3.6" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\chara\Desktop\Clinic\DC\DC\bin\Debug\net7.0-windows\DC.runtimeconfig.json" target="lib\net7.0-windows7.0\DC.runtimeconfig.json" />
+    <file src="C:\Users\chara\Desktop\Clinic\DC\DC\bin\Debug\net7.0-windows\DC.dll" target="lib\net7.0-windows7.0\DC.dll" />
+  </files>
+</package>
